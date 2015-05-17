@@ -344,7 +344,33 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 }
-
+#services {
+  background-image: url(../img/thumbs-up.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#portfolio {
+  background-image: url(../img/zipline.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#about {
+  background-image: url(../img/up-for-whatever.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -865,3 +891,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+.separator {
+  width: 100%;
+  height: 150px;
+}
+ .tint {
+   color: white;
+   background-color: rgba(0, 0, 0, 0.60);
+   padding: 25px;
+   max-width: 500px;
+   margin: auto;
+
+ }
